@@ -1,0 +1,21 @@
+{
+  "name": "tourney-of-lights-server",
+  "version": "1.0.0",
+  "description": "The server for tournement of lights",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "author": "Jonah Minihan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
